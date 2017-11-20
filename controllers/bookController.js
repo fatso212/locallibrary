@@ -164,7 +164,7 @@ exports.book_delete_post = function(req, res) {
     res.send('NOT IMPLEMENTED: Book delete POST');
 };
 
-/ Display book update form on GET
+//Display book update form on GET
 exports.book_update_get = function(req, res, next) {
 
     req.sanitize('id').escape();
